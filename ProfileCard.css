@@ -1,0 +1,123 @@
+body{
+    background-color: wheat;
+    font-family: Poppins, Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    zoom: 160%;
+}
+.upper-sec{
+    background-color: rgb(57, 94, 181);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.dp{
+    object-fit: cover;
+    object-position: top;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    bottom: -20px;
+    border-radius: 60px;
+    border: 2px solid white;
+    outline: 2px solid rgb(57, 94, 181);
+}
+
+.lower-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+.name{
+    font-size: 22px;
+    padding-bottom: 9px;
+}
+.place{
+    color: gray;
+    padding-bottom: 10px;
+}
+.media img{
+    object-fit: cover;
+    object-position: center;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9px;
+}
+.nav button{
+    background-color: rgb(57, 94, 181);
+    color: white;
+    padding: 6px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.share-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.like-icon{
+    font-size: 8px;
+}
+.like-note{
+    margin-left: 6px;
+}
+.comment{
+    display: flex;
+    position: relative;
+    width: 30px;
+}
+.comment-img{
+    position: absolute;
+    top: 2.5px;
+    left: 0px;
+}
+.comment-note{
+    margin-left: 13px;
+}
+.forward{
+    display: flex;
+    position: relative;
+}
+.forward-img{
+    position: absolute;
+    top: 2.5px;
+    left: 0px;
+}
+.forward-note{
+    margin-left: 13px;
+}
+
+.share-section img{
+    object-fit: cover;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+}
+.divider{
+    margin: 10px;
+}
