@@ -1,3 +1,3 @@
 # Profile-Card
  
-A simpple Profile Card directing the user to various social media profiles namely Facebook, Instagram, GitHUb and Twitter. The Card is designed using HTML and plain CSS.
+I designed a simple profile Card using HTML and Pure CSS. The Card displays the details of the person along with the links to their social-media profiles.
